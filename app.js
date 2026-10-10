@@ -4,7 +4,7 @@ const WORDS = [
   { pinyin: "yǔ", initial: "y", final: "ü", audio: "audio/lesson1/tone-03.wav" },
   { pinyin: "lái", initial: "l", final: "ai", audio: "audio/lesson1/tone-04.wav" },
   { pinyin: "nǎi", initial: "n", final: "ai", audio: "audio/lesson1/tone-05.wav" },
-  { pinyin: "fù", initial: "f", final: "u", audio: "audio/lesson1/tone-06.wav" },
+  { pinyin: "bù", initial: "b", final: "u", audio: "audio/lesson1/tone-06.wav" },
   { pinyin: "gěi", initial: "g", final: "ei", audio: "audio/lesson1/tone-07.wav" },
   { pinyin: "tóu", initial: "t", final: "ou", audio: "audio/lesson1/tone-08.wav" },
   { pinyin: "hái", initial: "h", final: "ai", audio: "audio/lesson1/tone-09.wav" },
