@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title>第一课语音作业 · Lesson 1 Pronunciation Homework</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand">
+          <div class="brand-mark">听</div>
+          <div>
+            <h1>第一课语音作业</h1>
+            <p>Lesson 1 Pronunciation Homework</p>
+          </div>
+        </div>
+        <div class="header-badge">
+          <span>中文名 / Chinese Name</span>
+          <strong id="headerName">未登录 / Not signed in</strong>
+        </div>
+      </header>
+
+      <main>
+        <section class="login-screen" id="loginScreen">
+          <div class="login-panel">
+            <span class="eyebrow">欢迎 / Welcome</span>
+            <h2>请输入你的中文名</h2>
+            <p class="en">Please enter your Chinese name.</p>
+            <label class="field-label" for="studentName">中文名 / Chinese Name</label>
+            <input
+              id="studentName"
+              type="text"
+              autocomplete="name"
+              placeholder="请输入中文名 / Enter your Chinese name"
+            />
+            <button class="primary-btn" id="startBtn" type="button">开始练习 / Start Practice</button>
+            <p class="login-hint">提示：填写后点击开始，系统会记录你的练习进度。<br />Tip: Enter your name and start. Your progress will be saved on this device.</p>
+          </div>
+        </section>
+
+        <section class="game-screen" id="gameScreen" hidden>
+          <div class="progress-strip">
+            <div>
+              <span>进度 / Progress</span>
+              <strong id="progressText">第 1 题 / Question 1</strong>
+            </div>
+            <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          </div>
+
+          <div class="task-banner">
+            <div>
+              <span class="eyebrow" id="taskLabel">题型一 / Task 1</span>
+              <h2 id="taskTitle">听音辨声母</h2>
+              <p id="taskInstruction">听录音，选择你听到的声母。<br />Listen and choose the correct initial.</p>
+            </div>
+            <div class="score-chip">
+              <span>得分 / Score</span>
+              <strong id="scoreText">0</strong>
+            </div>
+          </div>
+
+          <div class="question-grid">
+            <section class="listen-panel">
+              <button class="play-button" id="playBtn" type="button" title="播放录音 / Play recording">▶</button>
+              <p class="play-label">播放录音 / Play recording</p>
+              <p class="question-prompt" id="questionPrompt">选择声母 / Choose the initial</p>
+              <p class="replay-hint">可以反复播放 / You can play it again</p>
+            </section>
+
+            <section class="answer-panel">
+              <div class="options" id="options"></div>
+              <div class="feedback" id="feedback" role="status"></div>
+              <button class="next-btn" id="nextBtn" type="button" hidden>下一题 / Next question</button>
+            </section>
+          </div>
+        </section>
+
+        <section class="finish-screen" id="finishScreen" hidden>
+          <div class="finish-card">
+            <span class="eyebrow">完成 / Completed</span>
+            <h2 id="finishTitle">祝贺你完成了这次练习！</h2>
+            <p class="en" id="finishEnglish">Congratulations! You have completed this practice.</p>
+            <div class="final-score" id="finalScore">0 / 30</div>
+            <div class="mode-scores" id="modeScores"></div>
+            <div class="code-box">
+              <span>完成码 / Completion code</span>
+              <strong id="completionCode">HY1-000</strong>
+            </div>
+            <div class="finish-actions">
+              <button class="primary-btn" id="printBtn" type="button">打印或截图 / Print or screenshot</button>
+              <button class="secondary-btn" id="againBtn" type="button">再练一次 / Practice again</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
