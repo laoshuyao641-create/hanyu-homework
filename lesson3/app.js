@@ -1,13 +1,13 @@
 const L3 = [
-  { pinyin: "qian", initial: "q", final: "ian", audio: "audio/lesson3/syllable-01.wav", review: false },
-  { pinyin: "qin", initial: "q", final: "in", audio: "audio/lesson3/syllable-02.wav", review: false },
-  { pinyin: "jie", initial: "j", final: "ie", audio: "audio/lesson3/syllable-03.wav", review: false },
-  { pinyin: "xin", initial: "x", final: "in", audio: "audio/lesson3/syllable-04.wav", review: false },
-  { pinyin: "qian", initial: "q", final: "ian", audio: "audio/lesson3/syllable-05.wav", review: false },
-  { pinyin: "you", initial: "y", final: "ou", audio: "audio/lesson3/syllable-06.wav", review: false },
-  { pinyin: "yuan", initial: "y", final: "üan", audio: "audio/lesson3/syllable-07.wav", review: false },
-  { pinyin: "xin", initial: "x", final: "in", audio: "audio/lesson3/syllable-08.wav", review: false },
-  { pinyin: "yao", initial: "y", final: "iao", audio: "audio/lesson3/syllable-09.wav", review: false }
+  { pinyin: "nián", initial: "n", final: "ian", audio: "audio/lesson3/syllable-01.wav", review: false },
+  { pinyin: "qín", initial: "q", final: "in", audio: "audio/lesson3/syllable-02.wav", review: false },
+  { pinyin: "jué", initial: "j", final: "üe", audio: "audio/lesson3/syllable-03.wav", review: false },
+  { pinyin: "xìn", initial: "x", final: "in", audio: "audio/lesson3/syllable-04.wav", review: false },
+  { pinyin: "qián", initial: "q", final: "ian", audio: "audio/lesson3/syllable-05.wav", review: false },
+  { pinyin: "liú", initial: "l", final: "iu", audio: "audio/lesson3/syllable-06.wav", review: false },
+  { pinyin: "yuán", initial: "y", final: "üan", audio: "audio/lesson3/syllable-07.wav", review: false },
+  { pinyin: "xìn", initial: "x", final: "in", audio: "audio/lesson3/syllable-08.wav", review: false },
+  { pinyin: "piào", initial: "p", final: "iao", audio: "audio/lesson3/syllable-09.wav", review: false }
 ];
 
 const REVIEW_WORDS = [
