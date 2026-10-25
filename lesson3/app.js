@@ -4,7 +4,7 @@ const L3 = [
   { pinyin: "jué", initial: "j", final: "üe", audio: "audio/lesson3/syllable-03.wav", review: false },
   { pinyin: "xìn", initial: "x", final: "in", audio: "audio/lesson3/syllable-04.wav", review: false },
   { pinyin: "qián", initial: "q", final: "ian", audio: "audio/lesson3/syllable-05.wav", review: false },
-  { pinyin: "liú", initial: "l", final: "iu", audio: "audio/lesson3/syllable-06.wav", review: false },
+  { pinyin: "liù", initial: "l", final: "iu", audio: "audio/lesson3/syllable-06.wav", review: false },
   { pinyin: "yuán", initial: "y", final: "üan", audio: "audio/lesson3/syllable-07.wav", review: false },
   { pinyin: "xìn", initial: "x", final: "in", audio: "audio/lesson3/syllable-08.wav", review: false },
   { pinyin: "piào", initial: "p", final: "iao", audio: "audio/lesson3/syllable-09.wav", review: false }
